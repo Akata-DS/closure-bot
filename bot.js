@@ -14,6 +14,6 @@ client.on("message", async message => {
   if(message.author.bot) return;
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-}
+});
 
 client.login(Njc3NzMzOTg0NzMzNjI2Mzg4.Xkg42A.dXStQpfEUcxPyTG9j5-5w390uFQ);
