@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
 
-client.user.setActivity("with depression");
+client.user.setActivity('YouTube', { type: 'WATCHING' });
                         
 client.on('ready', () => {
     console.log('I am ready!');
