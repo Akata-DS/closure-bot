@@ -5,6 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.on('guildMemberAdd', member => {
+    var role = member.guild.roles.find('name', 'Customer');
+    member.addRole(Customer);
+});
+
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
