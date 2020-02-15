@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-    message.member.addRole('677515320453365788');
-});
+  console.log('User' + member.user.tag + 'has joined the server!');
+
+  var role = member.guild.roles.find('name', 'user');
+  member.addRole('677515320453365788');
+}
 
 client.on('message', message => {
     if (message.content === 'ping') {
