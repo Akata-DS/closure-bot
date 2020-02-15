@@ -6,8 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-    var role = member.guild.roles.find('name', 'Customer');
-    member.addRole(Customer);
+    message.member.addRole('677515320453365788');
 });
 
 client.on('message', message => {
