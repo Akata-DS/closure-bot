@@ -5,15 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('guildMemberAdd', member => {
-    var role = member.guild.roles.find('name, 'Customer');
-    member.addRole(Customer)
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
 });
 
-client.on("message", async message => {
-  if(message.author.bot) return;
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-});
-
-client.login(Njc3NzMzOTg0NzMzNjI2Mzg4.Xkg42A.dXStQpfEUcxPyTG9j5-5w390uFQ);
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
