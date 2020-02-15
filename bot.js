@@ -16,4 +16,4 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
 }
 
-client.login(Njc3NzMzOTg0NzMzNjI2Mzg4.Xke1xw.7dAOp3yOEeoW4vbpgLib-8ScNMI);
+client.login(Njc3NzMzOTg0NzMzNjI2Mzg4.Xkg42A.dXStQpfEUcxPyTG9j5-5w390uFQ);
