@@ -10,7 +10,7 @@ client.on('guildMemberAdd', member => {
 
   var role = member.guild.roles.find('name', 'user');
   member.addRole('677515320453365788');
-}
+});
 
 client.on('message', message => {
     if (message.content === 'ping') {
