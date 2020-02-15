@@ -4,7 +4,7 @@ const config = require("./config.json");
                         
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setGame('Arknights');
+    client.user.setActivity('Arknights');
 });
 
 client.on("message", async message => {
