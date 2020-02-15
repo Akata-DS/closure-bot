@@ -14,7 +14,7 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
   
   // COMMAND SECTION ===========================================
-  if(command === "say", member.guild.roles.has('677351882292854825')) {
+  if(command === "say", message.author.id('311757292536201217')) {
     const sayMessage = args.join(" ");
     message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
