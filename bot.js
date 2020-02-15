@@ -14,7 +14,7 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
   
   // COMMAND SECTION ===========================================
-  if(command === "say") {
+  if(command === "say", member.guild.roles.has('677351882292854825')) {
     const sayMessage = args.join(" ");
     message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
@@ -22,8 +22,6 @@ client.on("message", async message => {
 });
     
 client.on('guildMemberAdd', member => {
-  console.log('User' + member.user.tag + 'has joined the server!');
-
   var role = member.guild.roles.find('name', 'user');
   member.addRole('677515320453365788'); // Customer Role
 });
