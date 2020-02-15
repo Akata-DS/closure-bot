@@ -4,7 +4,6 @@ const config = require("./config.json");
                         
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setActivity("Counting credit loans...");
 });
 
 client.on("message", async message => {
