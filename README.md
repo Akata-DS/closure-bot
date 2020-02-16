@@ -12,6 +12,8 @@ What things you need to install the software and how to install them
 
 ```
 - Discord
+- GitHub Repository
+- Heroku Account
 - Nothing else, really
 ```
 
@@ -26,7 +28,7 @@ Open Heroku, put your usual password but with a * behind, and then voila!
 
 If your bot is offline, check your worker, the log, and make sure your code is not a shit.
 
-## Deployment
+## Warning
 
 Do not mess with any of these stuffs. Seriously, one broken shit will make you confused for your entire night.
 
