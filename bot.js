@@ -17,7 +17,7 @@ client.on("message", async message => {
 client.on("message", message => {
   if(command === "color") {
     message.channel.send('No colors for you hehehe');
-    
+  }
   // COMMAND SECTION ===========================================
   if(command === "say", message.member.roles.has('677351882292854825')) {
     const sayMessage = args.join(" ");
