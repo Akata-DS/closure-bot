@@ -9,8 +9,8 @@ client.on('ready', () => {
 
 client.on("message", async message => {
   if(message.author.bot) return;
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   if(message.content.indexOf(config.prefix) !== 0) return;
+  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   // COMMAND SECTION ===========================================
   if(command === "say", message.member.roles.has('677351882292854825')) {
@@ -22,7 +22,7 @@ var emojiname = ["LMD","pastelyellow","pastelgreen","hotpink","purple","orange",
 var rolename=["Pastel Pink","Pastel Yellow","Pastel Green","Hot Pink","Purple","Orange","Peach","Pastel Purple","Light Blue","Red"];
 client.on('message', msg => {
 
-  if(msg.content.startsWith("Color Role Service")){
+  if(msg.content.startsWith("reaction")){
     if(!msg.channel.guild) return;
     for(let n in emojiname){
     var emoji =[msg.guild.emojis.find(r => r.name == emojiname[n])];
