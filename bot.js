@@ -17,6 +17,10 @@ client.on("message", async message => {
     const sayMessage = args.join(" ");
     message.channel.send(sayMessage);
   }
+  if(command === "pictureBotSend", message.member.roles.has('677351882292854825')) {
+    const pictureLink = args.join(" ");
+    message.channel.send(new Discord.Attachment(pictureLink) );
+  }
   // START OF EXPERIMENTAL AREA
 var emojiname = ["LMD","pastelyellow","pastelgreen","hotpink","purple","orange","peach","pastelpurple","lightblue","red"];
 var rolename=["Pastel Pink","Pastel Yellow","Pastel Green","Hot Pink","Purple","Orange","Peach","Pastel Purple","Light Blue","Red"];
