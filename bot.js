@@ -15,8 +15,10 @@ client.on("message", async message => {
   // COMMAND SECTION ===========================================
   if(command === "say", message.member.roles.has('677351882292854825')) {
     const sayMessage = args.join(" ");
-    message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
+  }
+  if(command === "color") {
+    message.channel.send('This shit is still being done, pls be patient');
   }
 });
 
