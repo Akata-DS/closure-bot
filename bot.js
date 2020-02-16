@@ -13,7 +13,7 @@ client.on("message", async message => {
   if(message.content.indexOf(config.prefix) !== 0) return;
   const command = args.shift().toLowerCase();
   // COMMAND SECTION ===========================================
-  if(command === "+say", message.member.roles.has('677351882292854825')) {
+  if(command === "say", message.member.roles.has('677351882292854825')) {
     const sayMessage = args.join(" ");
     message.channel.send(sayMessage);
   }
