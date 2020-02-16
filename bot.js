@@ -12,9 +12,6 @@ client.on("message", async message => {
   if(message.content.indexOf(config.prefix) !== 0) return;
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-});
-
-client.on("message", message => {
   // COMMAND SECTION ===========================================
   if(command === "say", message.member.roles.has('677351882292854825')) {
     const sayMessage = args.join(" ");
