@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
                         
 client.on('ready', () => {
-    console.log('I am ready!');
+    console.log('COMPLETE');
     client.user.setActivity('Arknights');
 });
 
@@ -19,11 +19,14 @@ client.on("message", async message => {
     message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
   }
+  if(command === "color") {
+    message.channel.send('No colors for you hehehe');
+  }
 });
     
 client.on('guildMemberAdd', member => {
   var role = member.guild.roles.find('name', 'user');
-  member.addRole('677515320453365788'); // Customer Role
+  member.addRole('677515320453365788'); // Customer Role (jgn lupa ganti)
 });
 
 client.login(process.env.BOT_TOKEN);
