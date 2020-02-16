@@ -19,6 +19,10 @@ client.on("message", async message => {
   }
   if(command === "color") {
     message.channel.send('This shit is still being done, pls be patient');
+    const sayMessage = args.join(" ");
+    if(sayMessage === "White") {
+      message.channel.send(sayMessage);
+    } else {message.channel.send('That color is not white, no');}
   }
 });
 
