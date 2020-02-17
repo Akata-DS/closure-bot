@@ -13,11 +13,11 @@ client.on("message", async message => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   // COMMAND SECTION ===========================================
-  if(command === "say", message.member.roles.has('677351882292854825')) {
+  if(command === "say") {
     const sayMessage = args.join(" ");
     message.channel.send(sayMessage);
   }
-  if(command === "pictureBotSend", message.member.roles.has('677351882292854825')) {
+  if(command === "pictureBotSend") {
     const pictureLink = args.join(" ");
     message.channel.send({files: [pictureLink]});
   }
