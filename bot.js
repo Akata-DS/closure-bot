@@ -41,7 +41,7 @@ client.on("message", async message => {
     message.channel.send(exampleEmbed);
   }
   // START OF EXPERIMENTAL AREA
-var emojiname = ["pastelpink","pastelyellow","pastelgreen","hotpink","purple","orange","peach","pastelpurple","lightblue","red"];
+var emojiname = ["PastelPink","PastelYellow","PastelGreen","HotPink","Purple","Orange","Peach","PastelPurple","LightBlue","Red"];
 var rolename=["Pastel Pink","Pastel Yellow","Pastel Green","Hot Pink","Purple","Orange","Peach","Pastel Purple","Light Blue","Red"];
 client.on('message', msg => {
 
