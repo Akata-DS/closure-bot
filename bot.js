@@ -28,7 +28,7 @@ client.on("message", async message => {
     .addField('Skill Name', '**True Silver Slash**', true)
     .addField('Activation', 'Manual Trigger', true)
     .addField('Description', 'DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)')
-    .setImage('https://cdn.discordapp.com/attachments/677847136695746560/680346359488184342/gh.png')
+    .setImage('https://cdn.discordapp.com/attachments/573480121592447004/573483824336470019/Will.Graham.600.1584841.jpg')
     .setFooter('⚙ | Page 1/2', 'https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg');
   if(command === "embedtest") {
     message.channel.send(exampleEmbed);
