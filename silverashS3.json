@@ -1,46 +1,38 @@
 {
-  "title": "title ~~(did you know you can have markdown here too?)~~",
-  "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. \nyes, even code blocks",
-  "url": "https://discordapp.com",
   "color": 8878622,
-  "timestamp": "2020-02-22T14:11:38.733Z",
   "footer": {
-    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-    "text": "footer text"
+    "icon_url": "https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg",
+    "text": "⚙ | Page 1/2"
   },
   "thumbnail": {
-    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    "url": "https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png"
   },
   "image": {
-    "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    "url": "https://cdn.discordapp.com/attachments/677847136695746560/680346359488184342/gh.png"
   },
   "author": {
-    "name": "author name",
-    "url": "https://discordapp.com",
-    "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+    "name": "Closure",
+    "icon_url": "https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg"
   },
   "fields": [
     {
-      "name": ":thinking:",
-      "value": "some of these properties have certain limits..."
-    },
-    {
-      "name": ":scream:",
-      "value": "try exceeding some of them!"
-    },
-    {
-      "name": ":rolling_eyes:",
-      "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
-    },
-    {
-      "name": ":thonkang:",
-      "value": "these last two",
+      "name": "Description",
+      "value": "DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)"
       "inline": true
     },
     {
-      "name": ":thonkang:",
-      "value": "are inline fields",
+      "name": "Activation",
+      "value": "Manual Trigger"
       "inline": true
+    },
+    {
+      "name": "SP Charge Type",
+      "value": "Per Second"
+      "inline": true
+    },
+    {
+      "name": "Upgrades",
+      "value": "**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3",
     }
   ]
 }
