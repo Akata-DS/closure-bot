@@ -27,6 +27,7 @@ client.on("message", async message => {
     .setThumbnail('https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png')
     .addField('Skill Name', '**True Silver Slash**', true)
     .addField('Activation', 'Manual Trigger', true)
+    .addField('SP Charge Type', 'Per Second', true)
     .addField('Description', 'DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)')
     .addField('Upgrades', '**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3')
     .setImage('https://cdn.discordapp.com/attachments/573480121592447004/573483824336470019/Will.Graham.600.1584841.jpg')
