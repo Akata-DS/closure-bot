@@ -21,60 +21,9 @@ client.on("message", async message => {
     const pictureLink = args.join(" ");
     message.channel.send({files: [pictureLink]});
   }
-
+  const silverashS3 = require("./silverashS3.json");
   if(command === "embedtest") {
-    message.channel.send({
-  "title": "Skill 3",
-  "description": "True Silver Slash",
-  "author": {
-    "name": "SilverAsh",
-    "icon_url": "https://cdn.discordapp.com/attachments/677847136695746560/680341101533462568/latest.png"
-  },
-  "color": 53380,
-  "footer": {
-    "text": "1/10",
-    "icon_url": "https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg"
-  },
-  "thumbnail": "https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png",
-  "image": "https://cdn.discordapp.com/attachments/677847136695746560/680346359488184342/gh.png",
-  "fields": [
-    {
-      "name": "Level",
-      "value": "1",
-      "inline": true
-    },
-    {
-      "name": "SP Charge Type",
-      "value": "Per Second",
-      "inline": true
-    },
-    {
-      "name": "SP Cost",
-      "value": "90",
-      "inline": true
-    },
-    {
-      "name": "Initial SP",
-      "value": "75",
-      "inline": true
-    },
-    {
-      "name": "Skill Activation",
-      "value": "Manual Trigger",
-      "inline": true
-    },
-    {
-      "name": "Duration",
-      "value": "20 Seconds",
-      "inline": true
-    },
-    {
-      "name": "Unlock Requirements",
-      "value": "Elite 2 Level 1",
-      "inline": true
-    }
-  ]
-});
+    message.channel.send({ embed: silverashS3 });
   }
   // START OF EXPERIMENTAL AREA
 var emojiname = ["PastelPink","PastelYellow","PastelGreen","HotPink","Purple","Orange","Peach","PastelPurple","LightBlue","Red"];
