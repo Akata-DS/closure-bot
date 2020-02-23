@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
 const config = require("./config.json");
                         
 client.on('ready', () => {
@@ -41,7 +41,7 @@ client.on('message', msg => {
   }
   });
 
-client.on("messageReactionAdd", async message,(reaction,user)=>{
+client.on("messageReactionAdd",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -53,7 +53,7 @@ client.on("messageReactionAdd", async message,(reaction,user)=>{
 }
 });
 
-client.on("messageReactionRemove", async message,(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
