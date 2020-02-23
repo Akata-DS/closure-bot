@@ -1,4 +1,4 @@
-new Discord.RichEmbed()
+const silverashS3 = new Discord.RichEmbed()
     .setColor('#0099ff')
     .setAuthor('SilverAsh', 'https://cdn.discordapp.com/attachments/677847136695746560/680341101533462568/latest.png')
     .setThumbnail('https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png')
