@@ -21,17 +21,7 @@ client.on("message", async message => {
     const pictureLink = args.join(" ");
     message.channel.send({files: [pictureLink]});
   }
-  const exampleEmbed = new Discord.RichEmbed()
-    .setColor('#0099ff')
-    .setAuthor('SilverAsh', 'https://cdn.discordapp.com/attachments/677847136695746560/680341101533462568/latest.png')
-    .setThumbnail('https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png')
-    .addField('Skill Name', '**True Silver Slash**', true)
-    .addField('Activation', 'Manual Trigger', true)
-    .addField('SP Charge Type', 'Per Second', true)
-    .addField('Description', 'DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)')
-    .addField('Upgrades', '**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3')
-    .setImage('https://cdn.discordapp.com/attachments/678640993226063891/678763972811292712/SilverAshBannerNew.png')
-    .setFooter('⚙ | Page 1/2', 'https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg');
+  const exampleEmbed = require("./silverashS3.json");
   if(command === "embedtest") {
     message.channel.send(exampleEmbed);
   }
