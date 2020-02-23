@@ -18,21 +18,21 @@
     {
       "name": "Description",
       "value": "DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)",
-      "inline": true,
+      "inline": true
     },
     {
       "name": "Activation",
       "value": "Manual Trigger",
-      "inline": true,
+      "inline": true
     },
     {
       "name": "SP Charge Type",
       "value": "Per Second",
-      "inline": true,
+      "inline": true
     },
     {
       "name": "Upgrades",
-      "value": "**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3",
+      "value": "**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3"
     }
   ]
 }
