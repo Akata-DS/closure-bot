@@ -22,7 +22,7 @@ client.on("message", async message => {
     message.channel.send({files: [pictureLink]});
   }
 
-  const exampleEmbed = {"fields":[{"name":"TEST 1","value":"I LIKE","inline":true},{"name":"TEST 2","value":"HER","inline":true},{"name":"TEST 3","value":"WHY??","inline":false}],"description":"Sooo. Here's what i came up with","thumbnail":{"url":"https://cdn.discordapp.com/emojis/678806610209931274.png?v=1"},"image":{"url":"https://cdn.discordapp.com/attachments/678640993226063891/678764392052949012/SkadiBanner.png"},"color":2105893,"footer":{"icon_url":"https://cdn.discordapp.com/emojis/451308577290715136.png","text":"Page 1/2"}};
+  const exampleEmbed = require("./silverashS3.json");
   if(command === "embedtest") {
     message.channel.send(exampleEmbed);
   }
