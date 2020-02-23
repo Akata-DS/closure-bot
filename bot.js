@@ -23,16 +23,13 @@ client.on("message", async message => {
   }
   const exampleEmbed = new Discord.RichEmbed()
     .setColor('#0099ff')
-    .setTitle('True Silver Slash')
-    .setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+    .setAuthor('SilverAsh', 'https://cdn.discordapp.com/attachments/677847136695746560/680341101533462568/latest.png')
     .setThumbnail('https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png')
-    .addField('Regular field title', 'Some value here')
-    .addBlankField()
-    .addField('Inline field title', 'Some value here', true)
-    .addField('Inline field title', 'Some value here', true)
-    .addField('Inline field title', 'Some value here', true)
+    .addField('Skill Name', '**True Silver Slash**', true)
+    .addField('Activation', 'Manual Trigger', true)
+    .addField('Description', 'DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)')
     .setImage('https://cdn.discordapp.com/attachments/677847136695746560/680346359488184342/gh.png')
-    .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+    .setFooter('⚙ | Page 1/2', 'https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg');
   if(command === "embedtest") {
     message.channel.send(exampleEmbed);
   }
