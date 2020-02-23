@@ -17,7 +17,7 @@
   "fields": [
     {
       "name": "Description",
-      "value": "DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)"
+      "value": "DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)",
       "inline": true,
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "SP Charge Type",
-      "value": "Per Second"
+      "value": "Per Second",
       "inline": true,
     },
     {
