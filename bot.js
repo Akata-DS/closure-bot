@@ -21,9 +21,20 @@ client.on("message", async message => {
     const pictureLink = args.join(" ");
     message.channel.send({files: [pictureLink]});
   }
-  const silverashS3 = require("./silverashS3.json");
+  const exampleEmbed = new Discord.RichEmbed()
+    .setColor('#0099ff')
+    .setTitle('True Silver Slash')
+    .setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+    .setThumbnail('https://cdn.discordapp.com/attachments/677847136695746560/680332813064863967/skill_icon_skchr_svrash_3.png')
+    .addField('Regular field title', 'Some value here')
+    .addBlankField()
+    .addField('Inline field title', 'Some value here', true)
+    .addField('Inline field title', 'Some value here', true)
+    .addField('Inline field title', 'Some value here', true)
+    .setImage('https://cdn.discordapp.com/attachments/677847136695746560/680346359488184342/gh.png')
+    .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
   if(command === "embedtest") {
-    message.channel.send({ embed: silverashS3 });
+    message.channel.send(exampleEmbed);
   }
   // START OF EXPERIMENTAL AREA
 var emojiname = ["PastelPink","PastelYellow","PastelGreen","HotPink","Purple","Orange","Peach","PastelPurple","LightBlue","Red"];
