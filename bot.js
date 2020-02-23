@@ -39,7 +39,7 @@ client.on('message', msg => {
    }
   }
   });
-channel.fetchMessage('99539446449315840');
+channel.fetchMessage('680761697958494208');
 client.on("messageReactionAdd",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
