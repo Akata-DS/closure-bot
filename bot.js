@@ -21,9 +21,9 @@ client.on("message", async message => {
     const pictureLink = args.join(" ");
     message.channel.send({files: [pictureLink]});
   }
-  const silverashS3 = require("./silverashS3.json");
+  const aaa = require("./silverashS3.json");
   if(command === "embedtest") {
-    message.channel.send({embed: silverashS3});
+    message.channel.send({embed: aaa});
   }
   // START OF EXPERIMENTAL AREA
 var emojiname = ["PastelPink","PastelYellow","PastelGreen","HotPink","Purple","Orange","Peach","PastelPurple","LightBlue","Red"];
