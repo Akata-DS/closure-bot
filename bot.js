@@ -30,7 +30,7 @@ client.on("message", async message => {
     .addField('SP Charge Type', 'Per Second', true)
     .addField('Description', 'DEF -70%; ATK +110%; Range expands; Attacks at most 3 targets simultaneously (regarded as Melee Attack)')
     .addField('Upgrades', '**+5%** ATK every Level \n Attacks **4** targets at Level 4, **5** at Level 7, **6** at Mastery 3')
-    .setImage('https://cdn.discordapp.com/attachments/573480121592447004/573483824336470019/Will.Graham.600.1584841.jpg')
+    .setImage('https://cdn.discordapp.com/attachments/678640993226063891/678763972811292712/SilverAshBannerNew.png')
     .setFooter('⚙ | Page 1/2', 'https://cdn.discordapp.com/attachments/678640993226063891/680969379005202552/Closure.600.2849100.jpg');
   if(command === "embedtest") {
     message.channel.send(exampleEmbed);
